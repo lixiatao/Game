@@ -3,7 +3,7 @@
 	var Background = window.Background = function(){
 		this.images = ["bg_01","bg_02","bg_03","bg_04"];
 		this.random = parseInt(Math.random()*(this.images.length));
-		this.image = game.R[this.images[this.random]];
+		this.image = game.R["bg_02"];
 		this.width = game.canvas.width;
 		this.height = this.width*768/512;
 		this.speed = 1;
